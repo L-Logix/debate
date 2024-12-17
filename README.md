@@ -1,1 +1,1 @@
-# The Great Debate
+**The Great Debate**
