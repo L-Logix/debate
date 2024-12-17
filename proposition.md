@@ -1,0 +1,3 @@
+**Tucker, Kristine, and 2018. “What Are the Parts of a Debate?” The Classroom | Empowering Students in Their College Journey, 28 Nov. 2018, https://www.theclassroom.com/debate-rules-techniques-8736679.html
+The following sentence is the information used:**
+The team in favor of the motion is called the proposition or affirmative... The proposition is charged with the responsibility of proving that the motion is more true than it is false, which makes the proposition’s position more challenging because building a strong case for something is harder than looking for holes in the case, which is the responsibility of the opposition.
