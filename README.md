@@ -16,7 +16,7 @@ However, if you'd like to contribute or clone the repository, you're welcome to 
 
 **The Great Debate** is easy to navigate and designed to help you learn at your own pace. Here's how you can make the most of the site:
 
-- **Browse Pages** 🖱️: On the homepage, you'll find links to various learning pages. The button takes you to a specific age with information. Each link on this page leads to a Google Doc with in-depth content to help you improve your Lincoln-Douglas debate skills.
+- **Browse Pages** 🖱️: On the homepage, you'll find links to various learning pages. The button takes you to a specific page with information. Each link on this page leads to a Google Doc with in-depth content to help you improve your Lincoln-Douglas debate skills.
 - **No Account Needed** 🚫: You don't need an account to explore the site or access the resources. Simply navigate through the pages and start learning!
 - **Rate Us** ⭐: If you find the site helpful, you can rate us using the button on the homepage. Your feedback helps us improve!
 - **Enjoy Learning** 🎓: Whether you're just starting out or refining your debating techniques, enjoy exploring the resources at your own pace.
