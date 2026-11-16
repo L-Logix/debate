@@ -3,33 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Great Debate</title>
-    <style>
-        body { font-family: Arial, sans-serif; background: #e9ecef; padding: 20px; }
-        .container { max-width: 600px; margin: auto; background: white; padding: 20px; border-radius: 5px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); }
-        h1 { text-align: center; }
-        h2 { text-align: center; }
-        h5 { text-align: center; }
-    </style>
-        <script>alert("Hello! Welcome to The Great Debate, an open-source debate learning platform. Here, we teach you about Lincoln-Douglas Debate!");
-     let been_here = prompt("Have you been here before?", "Yes/No")</script>
+    <title>The Great Debate | Learn Lincoln-Douglas Debate</title>
+    <meta name="description" content="A practical field guide to learning Lincoln-Douglas debate.">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Welcome to The Great Debate!</h1>
-      <p>Here, you are free to learn about Lincoln-Douglas debate without any pressure. Take your time and really learn what it takes.</p>
-        <h2><a href="homepage.html"><button>Get Started Today!</button></a></h2>
-        <h5><a href="https://github.com/L-Logix/debate/blob/main/README.md" target="_blank"><button>Or... Want to know more?</button></a></h5>
-        
-    </div>
-</body>
-<div id="copyright" align="center">
-    &copy; 2024 - 2025 L-Logix - All Rights Reserved.
-</div>
-<script>
+    <main class="container welcome">
+        <section>
+            <div class="eyebrow">A field guide to better arguments</div>
+            <h1>Make your case. Listen closely. Debate boldly.</h1>
+            <p>Learn the foundations of Lincoln-Douglas debate through clear lessons, useful vocabulary, and practice built for curious beginners.</p>
+            <div class="welcome-actions">
+                <a href="homepage.html">Start learning</a>
+                <a class="secondary" href="https://github.com/L-Logix/debate/blob/main/README.md" target="_blank" rel="noreferrer">Explore the project</a>
+            </div>
+        </section>
+        <aside>
+            <p><strong>01</strong><br>Build a strong foundation.</p>
+            <p><strong>02</strong><br>Practice thinking on your feet.</p>
+            <p><strong>03</strong><br>Find the argument that lasts.</p>
+        </aside>
+    </main>
+    <footer id="copyright">
+        &copy; 2024 - <span id="current-year">2025</span> L-Logix
+    </footer>
+<script defer>
 (() => {
-    const copyrightElement = document.getElementById("copyright");
-    copyrightElement.innerHTML = "&copy; 2024 - "+new Date().getFullYear()+" L-Logix - All Rights Reserved.";
+    document.getElementById("current-year").textContent = new Date().getFullYear();
 })();
 </script>
+</body>
 </html>

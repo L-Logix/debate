@@ -3,44 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home - The Great Debate</title>
-    <style>
-        body { font-family: Arial, sans-serif; background: #e9ecef; padding: 20px; }
-        .container { max-width: 600px; margin: auto; background: white; padding: 20px; border-radius: 5px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); }
-        h1 { text-align: center; }
-        h6 { text-align: center; }
-        h5 { text-align: center; }
-        p { text-align: center; }
-        h7 { text-align: center; }
-    </style>
+    <title>Learn | The Great Debate</title>
+    <meta name="description" content="Short lessons and practice activities for learning Lincoln-Douglas debate.">
+    <link rel="stylesheet" href="styles.css">
 
 </head>
 <body>
-    <div class="container">
-        <h1>Welcome to The Great Debate!</h1>
-        <p>What will you work on today?</p>
-        <h6><a href="vocabulary.html"><button>Debate Vocabulary</button></a></h6>
-        <h6><a href="rules.html"><button>Debate Time Limits</button></a></h6>
-        <h6><a href="debate1.html"><button>Practice Debate</button></a></h6>
-        <h6><a href="basketball.html"><button>The Basketball Analogy</button></a></h6>
-        <h6><a href="a.html"><button>Winning A Debate</button></a></h6>
-        <h6><a href="b.html"><button>Debate Researching</button></a></h6>
-        <h6><a href="c.html"><button>Active Listening</button></a></h6>
-        <h6><a href="d.html"><button>Thorough Research</button></a></h6>
-        <h6><a href="e.html"><button>Clear Delivery</button></a></h6>
-        <h5><a href="https://forms.gle/Lk6BzhqqBP616k9s7" target="_blank"><button>Rate Us!</button></a></h5>
-        <h5><a href="https://forms.gle/XHTg3jPD5gd1nezx7" target="_blank"><button>Are You Prepared? - Take This Form To Find Out!</button></a></h5>
-        <h6><a href="resources.html"><button>Resources</button></a></h6>
-        
-    </div>
-</body>
-<div id="copyright" align="center">
-    &copy; 2024 - 2025 L-Logix - All Rights Reserved.
-</div>
-<script>
+    <main class="container hub">
+        <div class="eyebrow">Your learning room</div>
+        <h1>What will you work on today?</h1>
+        <p>Choose a short lesson, then put the idea into practice. Everything is self-paced and designed to be useful in your next round.</p>
+        <div class="learning-grid">
+            <a href="vocabulary.html"><strong>Debate vocabulary</strong><span>Learn the language of a round.</span></a>
+            <a href="rules.html"><strong>Time limits</strong><span>Understand the rhythm of LD.</span></a>
+            <a href="debate1.html"><strong>Practice debate</strong><span>Test your thinking under pressure.</span></a>
+            <a href="basketball.html"><strong>The basketball analogy</strong><span>See values and criteria in action.</span></a>
+            <a href="a.html"><strong>Win the round</strong><span>Build a persuasive strategy.</span></a>
+            <a href="b.html"><strong>Research well</strong><span>Turn sources into evidence.</span></a>
+            <a href="c.html"><strong>Active listening</strong><span>Catch what matters in the flow.</span></a>
+            <a href="d.html"><strong>Logical reasoning</strong><span>Make your claims hold together.</span></a>
+            <a href="e.html"><strong>Clear delivery</strong><span>Make every word land.</span></a>
+            <a href="resources.html"><strong>Research resources</strong><span>Find credible places to start.</span></a>
+        </div>
+        <div class="hub-actions">
+            <a href="https://forms.gle/Lk6BzhqqBP616k9s7" target="_blank" rel="noreferrer">Rate the site</a>
+            <a class="secondary" href="https://forms.gle/XHTg3jPD5gd1nezx7" target="_blank" rel="noreferrer">Take the readiness check</a>
+        </div>
+    </main>
+    <footer id="copyright">
+        &copy; 2024 - <span id="current-year">2025</span> L-Logix
+    </footer>
+<script defer>
 (() => {
-    const copyrightElement = document.getElementById("copyright");
-    copyrightElement.innerHTML = "&copy; 2024 - "+new Date().getFullYear()+" L-Logix - All Rights Reserved.";
+    document.getElementById("current-year").textContent = new Date().getFullYear();
 })();
 </script>
+</body>
 </html>

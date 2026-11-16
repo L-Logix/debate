@@ -1,9 +1,14 @@
-document.getElementById("sendButton").addEventListener("click", sendMessage);
-document.getElementById("userInput").addEventListener("keypress", function(event) {
+const sendButton = document.getElementById("sendButton");
+const userInput = document.getElementById("userInput");
+
+if (sendButton && userInput) {
+    sendButton.addEventListener("click", sendMessage);
+    userInput.addEventListener("keypress", function(event) {
     if (event.key === 'Enter') {
         sendMessage();
     }
-});
+    });
+}
 
 function sendMessage() {
     const userMessage = document.getElementById("userInput").value.trim();
